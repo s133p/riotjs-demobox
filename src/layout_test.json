@@ -1,0 +1,90 @@
+{ "layout":
+    [{
+        "type": "grid",
+        "parameters": {"class-add": "o-grid--center o-grid--wrap"},
+        "layout":
+        [{
+            "type": "grid-cell",
+            "parameters": {"class-add": "o-grid__cell--width-100"},
+            "layout": [{  "layout":[{
+                "type": "card",
+                "layout": [{
+                    "type": "card-item",
+                    "parameters": {"class-add": "c-card__item--info"},
+                    "layout": [{ "type": "header", "data":"Header content" }]
+                },
+                {
+                    "type": "card-item",
+                    "layout": [{
+                        "type": "grid",
+                        "parameters": {"class-add": "o-grid--center o-grid--wrap"},
+                        "layout": [{
+                            "type": "grid-cell",
+                            "parameters": {"class-add": "o-grid__cell--width-75"},
+                            "layout": [{ "type":"header", "data":"Fancy-stuff" },
+                                       { "type":"paragraph", "data":"This has been an elaborate test." }]
+                        },
+                        { "type": "grid-cell",
+                            "parameters": {"class-add": "o-grid__cell--width-25"},
+                            "layout": [{ "type":"image", "data":"./images/placeholder/avatar.png" }]
+                        }]
+                    }]
+                }]
+            }] }]
+        },{
+            "type": "grid-cell",
+            "layout": [{  "layout":[{
+                "type": "card",
+                "layout": [{
+                    "type": "card-item",
+                    "parameters": {"class-add": "c-card__item--info"},
+                    "layout": [{ "type": "header", "data":"Header content" }]
+                },
+                {
+                    "type": "card-item",
+                    "layout": [{
+                        "type": "grid",
+                        "parameters": {"class-add": "o-grid--center o-grid--wrap"},
+                        "layout": [{
+                            "type": "grid-cell",
+                            "parameters": {"class-add": "o-grid__cell--width-75"},
+                            "layout": [{ "type":"header", "data":"Fancy-stuff" },
+                                       { "type":"paragraph", "data":"This has been an elaborate test." }]
+                        },
+                        { "type": "grid-cell",
+                            "parameters": {"class-add": "o-grid__cell--width-25"},
+                            "layout": [{ "type":"image", "data":"./images/placeholder/avatar.png" }]
+                        }]
+                    }]
+                }]
+            }] }]
+        },{
+            "type": "grid-cell",
+            "layout": [{  "layout":[{
+                "type": "card",
+                "layout": [{
+                    "type": "card-item",
+                    "parameters": {"class-add": "c-card__item--info"},
+                    "layout": [{ "type": "header", "data":"Header content" }]
+                },
+                {
+                    "type": "card-item",
+                    "layout": [{
+                        "type": "grid",
+                        "parameters": {"class-add": "o-grid--center o-grid--wrap"},
+                        "layout": [{
+                            "type": "grid-cell",
+                            "parameters": {"class-add": "o-grid__cell--width-75"},
+                            "layout": [{ "type":"header", "data":"Fancy-stuff" },
+                                       { "type":"paragraph", "data":"This has been an elaborate test." }]
+                        },
+                        { "type": "grid-cell",
+                            "parameters": {"class-add": "o-grid__cell--width-25"},
+                            "layout": [{ "type":"image", "data":"./images/placeholder/avatar.png" }]
+                        }]
+                    }]
+                }]
+            }] }]
+        }]
+    }]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Riot-Box",
+  "version": "0.0.1",
+  "description": "RiotJs test project",
+  "author": "Luke Purcell <luke.purcell.256@gmail.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "browser-jsonp": "^1.1.5",
+    "electron-prebuilt": "^0.36.0",
+    "electron-rebuild": "^1.5.7",
+    "electron-settings": "^1.0.2",
+    "riot": "^3.3.2",
+    "sqlite3": "^3.1.8"
+  },
+  "license": "None",
+  "dependencies": {
+    "github-api": "^3.0.0",
+    "mqtt": "^2.4.0",
+    "sqlite3": "^3.1.8"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "servers":
+        [{
+            "title":"localhost",
+            "uri":"mqtt://localhost",
+            "routes":["chatter","automation/#"]
+        },
+        {
+            "title":"K-State",
+            "uri":"mqtt://127.0.0.1",
+            "routes":["ambientSync/#","senesor/#", "rfid/#"]
+        },
+        {
+            "title":"VerizonEBC",
+            "uri":"mqtt://verizonebc.downstreamlabs.com",
+            "routes":["ambientSync", "weather", "twitter"]
+        },
+        {
+            "title":"VerizonEBC-staging",
+            "uri":"mqtt://verizonebc-staging.downstreamlabs.com",
+            "routes":["ambientSync", "weather", "twitter"]
+        }]
+}
